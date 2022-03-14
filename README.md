@@ -3,7 +3,7 @@
 # Main
 
 ```
-using Serilog; //also add libs like el sink file
+using Serilog; //also add libs like sink file
 
 string pathLog= @"C:\Logs\MyAppLog.txt";
 Log.Logger = new LoggerConfiguration()
