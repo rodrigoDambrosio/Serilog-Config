@@ -19,7 +19,7 @@ Log.Information(" Hi ! ");
 ```
 I can use Log.Debug Log.Error for example
 
-Logging in other class
+# Logging in other class
 
 Log.X and don't forget the using of Serilog
 
