@@ -22,7 +22,7 @@ Log.Information(" Hi ! ");
 ```
 I can use Log.Debug Log.Error for example
 
-#Variables
+# Variables
 ```Log.Information("The value of Car is {Car}", Car);```
 
 # Logging in other class
