@@ -11,6 +11,9 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo.File(pathLog, rollingInterval: RollingInterval.Day)
     .CreateLogger();
 ```
+### With great powers comes great responsability, dont forget to close the file
+
+```Log.CloseAndFlush();```
 
 # Add log entry
 
@@ -18,6 +21,9 @@ Log.Logger = new LoggerConfiguration()
 Log.Information(" Hi ! ");
 ```
 I can use Log.Debug Log.Error for example
+
+#Variables
+```Log.Information("The value of Car is {Car}", Car);```
 
 # Logging in other class
 
