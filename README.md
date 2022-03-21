@@ -11,7 +11,7 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo.File(pathLog, rollingInterval: RollingInterval.Day)
     .CreateLogger();
 ```
-### With great powers comes great responsability, dont forget to close the file
+### With great powers comes great responsibility, dont forget to close the file
 
 ```Log.CloseAndFlush();```
 
